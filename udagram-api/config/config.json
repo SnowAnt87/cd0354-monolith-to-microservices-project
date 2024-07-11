@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "${env:POSTGRES_USERNAME}",
+    "password": "${env:POSTGRES_PASSWORD}",
+    "database": "${env:POSTGRES_DB}",
+    "host": "${env:POSTGRES_HOST}",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "${env:POSTGRES_USERNAME}",
+    "password": "${env:POSTGRES_PASSWORD}",
+    "database": "${env:POSTGRES_DB}",
+    "host": "${env:POSTGRES_HOST}",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "${env:POSTGRES_USERNAME}",
+    "password": "${env:POSTGRES_PASSWORD}",
+    "database": "${env:POSTGRES_DB}",
+    "host": "${env:POSTGRES_HOST}",
+    "dialect": "postgres"
+  }
+}
